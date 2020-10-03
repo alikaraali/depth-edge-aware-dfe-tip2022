@@ -11,10 +11,12 @@ In order to reach the dataset, you should contact with the author of this paper.
 The code here includes just 1 sample images from this dataset.
 
 Running the code:
+
 python3 BENet.py -i images/image_01.png
 
 In order to make a fair comparisons, we use the same edge maps in some other edge based defocus blur 
 estimations. If you want to use precomputed edges, which are provided in p"recomputed_edges/"
+
 python3 BENet.py -i images/image_01.png -e precomputed_edges/edge_01.png 
 
 Please also report any bug to alixkaraali[at_sign]gmail[dot_sign]com
