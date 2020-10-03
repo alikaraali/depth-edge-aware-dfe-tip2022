@@ -86,10 +86,10 @@ if __name__ == '__main__':
 
     names1 = args['image'].split('.')
 
-    cv2.imwrite(names[0] + '_bmap.png', np.uint8((fblurmap / 6.0)*255))
+    cv2.imwrite(names1[0] + '_bmap.png', np.uint8((fblurmap / 6.0)*255))
 
     edge_map = np.zeros((H,W,3), dtype=np.uint8)
     edge_map[:,:,0] = mask
     edge_map[:,:,2] = emapdepth
-    cv2.imwrite(names[0] + '_edge.png', edge_map*255)
+    cv2.imwrite(names1[0] + '_edge.png', edge_map*255)
 
