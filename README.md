@@ -1,9 +1,19 @@
 # DepthEdgeAwareBENet
 
-A. Karaali, N. Harte, CR. Jung, "Deep Multi-Scale Feature Learning for Defocus Blur Estimation", Arxiv, 2020
+A. Karaali, N. Harte, CR. Jung, "Deep Multi-Scale Feature Learning for Defocus Blur Estimation", IEEE Transactions on Image Processing (TIP 2022), 2022. 
+To read paper, please refer: https://arxiv.org/abs/2009.11939
 
 Any papers using this code should cite the paper accordingly. 
-https://arxiv.org/abs/2009.11939
+@ARTICLE{9673106,
+  author={Karaali, Ali and Harte, Naomi and Jung, Claudio R.},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Deep Multi-Scale Feature Learning for Defocus Blur Estimation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIP.2021.3139243}}
+
 
 As is, the code produces the results given as the first experimental setting with dataset which is provided in ('Non-parametric blur map regression for depth of field extension'). In order to reach the dataset, you should contact with the author of this paper. The code here includes just 1 sample images from this dataset.
 
