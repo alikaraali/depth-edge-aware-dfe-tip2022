@@ -10,9 +10,9 @@ Any papers using this code should cite the paper accordingly.
   journal={IEEE Transactions on Image Processing}, 
   title={Deep Multi-Scale Feature Learning for Defocus Blur Estimation}, 
   year={2022},
-  volume={},
+  volume={31},
   number={},
-  pages={1-1},
+  pages={1097-1106},
   doi={10.1109/TIP.2021.3139243}}
 ```
 
